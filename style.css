@@ -1,0 +1,127 @@
+root{
+	--primary:#3DCFD3;
+	--dark:#161616;
+	--pure:#FFFFFF;
+	--ternary:#898989;
+	--light:#F2F2F2;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialised;
+}
+
+.flex{
+	display: flex;
+}
+
+.item-center{
+	align-items: center;
+}
+
+.justify-between{
+	justify-content:space-between;
+}
+
+header{
+	background: var(--dark);
+}
+
+body{
+  font-family: 'Poppins' , sans-serif ;
+}
+
+container{
+	max-width:1152px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+header nav .left a{
+	color : var(--pure);
+	text-decoration: none;
+	margin-right: 2 rem;
+	text-transform: uppercase;
+	transition: all .3s ease;
+}
+
+header nav .left a: hover{
+	color: var(--primary);
+}
+
+header nav {
+	padding: 2rem 0;
+}
+
+header nav . branding{
+	margin-right: 3rem ;
+}
+
+.btn{
+	padding: 0.8 rem 3rem;
+	font-size: 1 rem;
+	font-weight: 600;
+	border: 2px solid transparent;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: all .3s ease;
+}
+
+.btn-primary{
+	background: var(--primary);
+	color: var(--secondary);
+}
+
+.btn-primary:hover{
+	background: transparent;
+	border-color: var(--primart);
+	color: var(--primary);
+}
+
+.hero .left img{
+	width: 400px;
+}
+
+.hero .right{
+	color: var(--pure);
+}
+
+.hero .right h6{
+	font-size: 1.6 rem;
+	color: var(--primary);
+	margin-bottom: 0.5 rem;
+}
+
+.hero .right h1{
+	font-size: 4 rem;
+	margin-bottom: 2 rem;
+	font-weight: 100;
+	line-height: 1.2;
+}
+
+.hero .right h1 span{
+	color: var(--primary);
+}
+
+.hero .right p{
+	line-height: 1.9;
+	margin-bottom: 2 rem;
+}
+
+.btn-secondary{
+	background: transparent;
+	color: var(--primary);
+	border-color: var(--primary);
+}
+
+.btn-secondary:hover{
+	background: var(--primary);
+	color: var(--ternary);
+}
+
+.flex-1{
+	flex:1;
+}
